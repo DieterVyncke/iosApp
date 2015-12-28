@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90F16DD1C2EC5C700758295 /* BeerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F90F16DB1C2EC5C700758295 /* BeerModel.xcdatamodeld */; };
+		F90F17001C2ECACD00758295 /* FavoriteBeersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90F16FF1C2ECACD00758295 /* FavoriteBeersController.swift */; };
 		F94292DA1C231C3200D87210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94292D91C231C3200D87210 /* AppDelegate.swift */; };
-		F94292DC1C231C3200D87210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94292DB1C231C3200D87210 /* ViewController.swift */; };
 		F94292DF1C231C3200D87210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94292DD1C231C3200D87210 /* Main.storyboard */; };
 		F94292E11C231C3200D87210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94292E01C231C3200D87210 /* Assets.xcassets */; };
 		F94292E41C231C3200D87210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94292E21C231C3200D87210 /* LaunchScreen.storyboard */; };
+		F966D2C01C304896004E2B5B /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F966D2BF1C304896004E2B5B /* FloatRatingView.swift */; };
+		F966D2C31C306DE6004E2B5B /* BeerFavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F966D2C21C306DE6004E2B5B /* BeerFavoriteTableViewCell.swift */; };
+		F992D0591C2D539F00A635C3 /* BeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992D0581C2D539F00A635C3 /* BeerViewController.swift */; };
+		F992D05B1C2D8D4300A635C3 /* BeersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992D05A1C2D8D4300A635C3 /* BeersTableViewCell.swift */; };
+		F9F59A531C2BE89A006618BD /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F59A521C2BE89A006618BD /* Beer.swift */; };
+		F9F59A551C2BEC30006618BD /* BeersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F59A541C2BEC30006618BD /* BeersViewController.swift */; };
+		F9F59A571C2BEC80006618BD /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F59A561C2BEC80006618BD /* Service.swift */; };
+		F9F59A591C2BEFF1006618BD /* Properties.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9F59A581C2BEFF1006618BD /* Properties.plist */; };
+		F9F59A5B1C2BF504006618BD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F59A5A1C2BF504006618BD /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F90F16DC1C2EC5C700758295 /* BeerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeerModel.xcdatamodel; sourceTree = "<group>"; };
+		F90F16FF1C2ECACD00758295 /* FavoriteBeersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteBeersController.swift; sourceTree = "<group>"; };
 		F94292D61C231C3200D87210 /* Beered.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beered.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94292D91C231C3200D87210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F94292DB1C231C3200D87210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F94292DE1C231C3200D87210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F94292E01C231C3200D87210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F94292E31C231C3200D87210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F94292E51C231C3200D87210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F966D2BF1C304896004E2B5B /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		F966D2C21C306DE6004E2B5B /* BeerFavoriteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerFavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		F992D0581C2D539F00A635C3 /* BeerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerViewController.swift; sourceTree = "<group>"; };
+		F992D05A1C2D8D4300A635C3 /* BeersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeersTableViewCell.swift; sourceTree = "<group>"; };
+		F9F59A521C2BE89A006618BD /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		F9F59A541C2BEC30006618BD /* BeersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeersViewController.swift; sourceTree = "<group>"; };
+		F9F59A561C2BEC80006618BD /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F9F59A581C2BEFF1006618BD /* Properties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Properties.plist; sourceTree = "<group>"; };
+		F9F59A5A1C2BF504006618BD /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,64 @@
 		F94292D81C231C3200D87210 /* Beered */ = {
 			isa = PBXGroup;
 			children = (
+				F966D2C11C3048B9004E2B5B /* FloatRatingView */,
+				F9F59A4E1C2BE823006618BD /* Model */,
+				F9F59A511C2BE833006618BD /* Views */,
+				F9F59A501C2BE82E006618BD /* Controller */,
+				F9F59A4F1C2BE829006618BD /* Service */,
 				F94292D91C231C3200D87210 /* AppDelegate.swift */,
-				F94292DB1C231C3200D87210 /* ViewController.swift */,
 				F94292DD1C231C3200D87210 /* Main.storyboard */,
 				F94292E01C231C3200D87210 /* Assets.xcassets */,
 				F94292E21C231C3200D87210 /* LaunchScreen.storyboard */,
 				F94292E51C231C3200D87210 /* Info.plist */,
+				F90F16DB1C2EC5C700758295 /* BeerModel.xcdatamodeld */,
+				F9F59A581C2BEFF1006618BD /* Properties.plist */,
 			);
 			path = Beered;
+			sourceTree = "<group>";
+		};
+		F966D2C11C3048B9004E2B5B /* FloatRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				F966D2BF1C304896004E2B5B /* FloatRatingView.swift */,
+			);
+			name = FloatRatingView;
+			sourceTree = "<group>";
+		};
+		F9F59A4E1C2BE823006618BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9F59A521C2BE89A006618BD /* Beer.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F9F59A4F1C2BE829006618BD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F9F59A561C2BEC80006618BD /* Service.swift */,
+				F9F59A5A1C2BF504006618BD /* Result.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		F9F59A501C2BE82E006618BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9F59A541C2BEC30006618BD /* BeersViewController.swift */,
+				F992D0581C2D539F00A635C3 /* BeerViewController.swift */,
+				F90F16FF1C2ECACD00758295 /* FavoriteBeersController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F9F59A511C2BE833006618BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F992D05A1C2D8D4300A635C3 /* BeersTableViewCell.swift */,
+				F966D2C21C306DE6004E2B5B /* BeerFavoriteTableViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +195,7 @@
 				F94292E41C231C3200D87210 /* LaunchScreen.storyboard in Resources */,
 				F94292E11C231C3200D87210 /* Assets.xcassets in Resources */,
 				F94292DF1C231C3200D87210 /* Main.storyboard in Resources */,
+				F9F59A591C2BEFF1006618BD /* Properties.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94292DC1C231C3200D87210 /* ViewController.swift in Sources */,
 				F94292DA1C231C3200D87210 /* AppDelegate.swift in Sources */,
+				F992D0591C2D539F00A635C3 /* BeerViewController.swift in Sources */,
+				F9F59A5B1C2BF504006618BD /* Result.swift in Sources */,
+				F9F59A571C2BEC80006618BD /* Service.swift in Sources */,
+				F9F59A531C2BE89A006618BD /* Beer.swift in Sources */,
+				F90F16DD1C2EC5C700758295 /* BeerModel.xcdatamodeld in Sources */,
+				F992D05B1C2D8D4300A635C3 /* BeersTableViewCell.swift in Sources */,
+				F90F17001C2ECACD00758295 /* FavoriteBeersController.swift in Sources */,
+				F966D2C01C304896004E2B5B /* FloatRatingView.swift in Sources */,
+				F966D2C31C306DE6004E2B5B /* BeerFavoriteTableViewCell.swift in Sources */,
+				F9F59A551C2BEC30006618BD /* BeersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +366,23 @@
 				F94292EA1C231C3200D87210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F90F16DB1C2EC5C700758295 /* BeerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F90F16DC1C2EC5C700758295 /* BeerModel.xcdatamodel */,
+			);
+			currentVersion = F90F16DC1C2EC5C700758295 /* BeerModel.xcdatamodel */;
+			name = BeerModel.xcdatamodeld;
+			path = ../BeerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F94292CE1C231C3200D87210 /* Project object */;
 }
