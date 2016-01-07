@@ -24,8 +24,10 @@ class BeerViewController : UITableViewController, FloatRatingViewDelegate {
         countryLabel.text = "\(beer.country)"
         
         let imageData = NSData(contentsOfURL: beer.image)
-        let image = UIImage(data: imageData!)
-        imageView.image = image
+        if imageData != nil{
+            let image = UIImage(data: imageData!)
+            imageView.image = image
+        }
         
         self.floatRatingView.delegate = self
         
@@ -47,6 +49,7 @@ class BeerViewController : UITableViewController, FloatRatingViewDelegate {
         
         
         //source: http://stackoverflow.com/questions/26345189/how-do-you-update-a-coredata-entry-that-has-already-been-saved-in-swift
+        //basis waarop verder is gebouwd.
         let beerRequest = NSFetchRequest(entityName: "Beer")
         beerRequest.predicate = NSPredicate(format: "name = %@", beer.name)
         do{
@@ -67,9 +70,15 @@ class BeerViewController : UITableViewController, FloatRatingViewDelegate {
                     newEntity.setValue(beer.country, forKey: "country")
                     newEntity.setValue(1, forKey: "tastedTotal")
                     newEntity.setValue(self.floatRatingView.rating, forKey: "rating")
+                    
                     print("saved beer to favorite list")
                     try managedContext.save()
                 }
+                
+                //toon wanneer bier gesaved w.
+                let alert = UIAlertController(title: "SAVED", message: "Beer saved to Favorites", preferredStyle: UIAlertControllerStyle.Alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                self.presentViewController(alert, animated: true, completion: nil)
             }
             
         }
